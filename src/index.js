@@ -22,9 +22,10 @@ const router = createBrowserRouter([
     element: <TripsList />
   },
   {
-    path: "/TripDetail",
-    element: <TripDetail />
-  }
+    path: "/TripDetail/:tripId",
+    element: <TripDetail //tripId={TripsList.trips.tripId} 
+    />
+  },
 ]);
 
 ReactDOM.render(

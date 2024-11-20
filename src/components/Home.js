@@ -1,8 +1,11 @@
 import React from 'react';
+import Nav from './Nav';
 
 function Home() {
   return (
+
     <header className="masthead bg-primary text-white text-center">
+
       <div className="container d-flex align-items-center flex-column">
         <h1 className="masthead-heading text-uppercase mb-0">
           Welcome To Hike

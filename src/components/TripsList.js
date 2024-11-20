@@ -2,6 +2,11 @@ import React, { useState } from "react";
 import tripsData from "../tripsData";
 import SearchBar from "./SearchBar";
 import TripItem from "./TripItem";
+import Nav from "./Nav";
+
+// const tripIds = tripsData.map((trip) => {
+//   return trip.id;
+// });
 
 function TripsList() {
   const [query, setQuery] = useState("");
