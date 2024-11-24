@@ -23,8 +23,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/TripDetail/:tripId",
-    element: <TripDetail //tripId={TripsList.trips.tripId} 
-    />
+    element: <TripDetail />
   },
 ]);
 

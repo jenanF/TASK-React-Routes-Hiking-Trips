@@ -6,7 +6,7 @@ import TripsList from './TripsList';
 function TripItem({ trip }) {
   return (
     <div className="col-md-6 col-lg-4 mb-5">
-      <Link to={`/TripDetail`}>
+      <Link to={`/TripDetail/${trip.id}`}>
         <div
           className="portfolio-item mx-auto"
           data-bs-toggle="modal"

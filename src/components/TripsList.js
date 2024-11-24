@@ -14,7 +14,9 @@ function TripsList() {
     .filter((trip) => trip.name.toLowerCase().includes(query.toLowerCase()))
     .map((trip, index) => <TripItem trip={trip} key={index} />);
   return (
+
     <section className="page-section portfolio" id="portfolio">
+      <Nav />
       <div className="container">
         <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">
           Explore Trips

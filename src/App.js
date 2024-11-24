@@ -9,8 +9,8 @@ function App() {
     <div id="page-top">
       <Nav />
       <Home />
-      <TripsList />
-      <TripDetail />
+      {/* <TripsList /> */}
+      {/* <TripDetail /> */}
     </div>
   );
 }
